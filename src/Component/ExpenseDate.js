@@ -8,7 +8,7 @@ export default function ExpenseDate(props) {
                 day: 'numeric'})
   return (
     <div>
-        <div>{month}</div>
+        <div className='expenses'>{month}</div>
         <div>{year}</div>
         <div>{day}</div>
     </div>
